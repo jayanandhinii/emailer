@@ -125,15 +125,15 @@ background-position: center;*/
 }
 
 #main-content .main-container-wrapper .card-two .right-card {
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/yoga.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #main-content .main-container-wrapper .card-three .left-card {
-    background-image: url(../images/bg.jpg);
+    background-image: url(../images/combat.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 /* Main content ends */
