@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css2?family=Averia+Libre:wght@100;200;300;400;500;600;700&display=swap);
+
+body {
+    font-family: 'arial', display;
+    padding: 0%;
+    margin: 0%;
+}
+
+/* navbar starts */
+.navbar {
+    height: 70px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .container-wrapper {
+    height: 100%;
+    width: 60%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+}
+
+.navbar .container-wrapper .nav-links {
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: aquamarine; */
+}
+
+.navbar .container-wrapper .nav-links li a {
+    text-decoration: none;
+    /* padding: 0 10px; */
+    font-size: 18px;
+    color: black;
+}
+
+/* navbar ends */
+
+/* footer starts */
+.footer {
+    height: 120px;
+    width: 100%;
+    /* background-color: chartreuse; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.footer .footer-wrapper {
+    height: 100%;
+    width: 80%;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer .footer-wrapper .offer {
+    background-color: yellow;
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .footer-wrapper .offer p {
+    font-size: 30px;
+    color: white;
+}
+
+.footer .footer-wrapper .icons {
+    /* background-color: aquamarine; */
+    letter-spacing: 20px;
+}
+
+/* footer section ends */
